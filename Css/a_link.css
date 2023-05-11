@@ -1,0 +1,13 @@
+body{
+  background-color: aquamarine;
+}
+.naver{
+  width: 200px;
+
+  /*top,bottom,left,right*/
+  /*값을 두개만 입력했을 경우 : (앞):상하 (뒤):좌우*/
+  padding: 20px 200px 50px 100px;
+  /*네가지 값을 다 입력했을때: 상 우 하 좌 (시계방향)*/
+  
+
+}

@@ -1,0 +1,18 @@
+.b-weight{
+  font-weight:700;
+  
+}
+.italic{
+  font-style:italic;
+}
+.delete{
+  text-decoration: line-through;
+}
+.underline{
+
+}
+
+
+.back{
+  background-color: rgb(123, 189, 17);
+}
