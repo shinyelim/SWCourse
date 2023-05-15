@@ -1,4 +1,67 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 li{
-  list-style: circle;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: beige;
+}
+body{
+  background-color: #1e1e1e;
+}
+.wrapper{
+  margin: 30px;
+  border: 2px solid #868686;
+  border-radius: 15px;
+  background-color: #282828;
+  text-align: center;
+  
+}
+.mac-btn-list{
+  display: flex;
+  background-color: #494a4b;
+  padding: 2px 0;
+  border-bottom: 3px solid #000;
+  border-radius: 15px 15px 0 0;
+   
+  
+}
+.mac-btn-item{
+  margin: 5px;
+  width: 13px;
+  height: 13px;
+  margin-left: 6px;
+  border-radius: 50%;
+}
+.red{
+  background-color: #521414;
+  margin: 2px;
+}
+.yellow{
+  background-color:#9c9e04 ;
+  margin: 3px;
+}
+.green{
+  background-color: #03b103;
+}
+.gnb-lis{
+  display: flex;
+  justify-content: center ;
+  margin-top: 22px;
+  
+}
+.gnb-item{
+  margin-right: 30px;
+  
+
+
+}
+.magin-z{
+  margin-right: 0;
+}
+.gnb-item:last-child{
+  margin-right: 0;
 }
