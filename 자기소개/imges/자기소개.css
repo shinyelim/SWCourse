@@ -52,9 +52,11 @@ body{
   justify-content: center ;
   margin-top: 22px;
   
+  
 }
 .gnb-item{
   margin-right: 30px;
+  font-weight: bold;
   
 
 
@@ -64,4 +66,16 @@ body{
 }
 .gnb-item:last-child{
   margin-right: 0;
+}
+.my-name{
+  margin-top: 25px;
+  color: #fff;
+}
+.img{
+  
+  width: 180px; 
+  height: 150px;
+  margin-top: 25px;
+  border-radius: 50%;
+  object-fit: cover;
 }
