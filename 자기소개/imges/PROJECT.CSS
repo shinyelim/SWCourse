@@ -4,11 +4,13 @@
 .gnb-lis{
   display: flex;
 }
-.gnb-list li{
+<style>
+.gnb-item{
   list-style: none;
+}
  
   
-}
+
 .ordered-list{
   display: flex;
 }
