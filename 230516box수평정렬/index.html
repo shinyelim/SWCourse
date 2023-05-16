@@ -12,7 +12,94 @@
 </head>
 <body>
 <div class="wrapper"> 
+<h1>박스 나란히 배치하기</h1>
+<div class="left">
+  <div>
+    <h2>1.왼쪽 정렬</h2>
+    <h3>2.float 이용</h3>
+    <p>
+      block box들한테 float:left를 주되,
+      float속성을 적용한 부모 다음 요소에게
+      clear로 플로팅 된 요소들의 효과를 지워져야한다.
+    </p>
+    <div class="left-float box">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
 
-</div>  
+
+    </div>
+  </div>
+</div>
+</div> 
+<div class="clear">
+  <h3>1.2 inline-block 이용</h3>
+  <p class="border">박스 display를 inline-block으로 설정하고, 가로와세로값을 주면 inline처럼 나란히 배치됩니다. block</p>
+  <div class="left-inline box"></div>
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <span class="border Inline">Inline</span>
+  <span class="border Inline">Inline</span>
+</div> 
+<div>
+  <h3>1.3 flex를 이용해서 수평정렬하기</h3>
+  <p>
+    내가 수평정렬 하고싶은 아이템들의 
+    부모요소에게 display:flex속성을 준다.
+    <div class="left-flex box"></div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </p>
+  <div class="right">
+    <h2>2.오른쪽 정렬</h2>
+    <div>
+      <h3>2.float 이용하기</h3>
+      <p>
+        <strong>
+          박스한테 다짜고짜 float:right 속성을 적용하면
+          박스순서가 뒤집힌다.
+        </strong>
+        정렬할 박스들에게는 float: left를 주고, 
+        그 박스를 감싸고 있는 부모 태그에게 float: right
+        속성을 준다. 플로팅 된 요소 뒤에 clear로 
+        플로팅된 요소들의 효과를 지워져야 한다.
+        <div class="right-float">
+          <div class="box">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+          </div>
+        </div>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="clear">
+  <h3>2.2 inline-block 이용</h3>
+  <p>
+    박스들을 inline-block으로 나란히 배치시킨 후,
+    그 부모한테 text-align:right 속성을 준다.
+  </p>
+  <div class="right-inline">
+    <div class="box"></div>
+   <p></p> 
+  </div>
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>
+    <h3>2.3 flex 이용</h3>
+    <p>
+      나란히 배치하고싶은 아이템들의 부모요소에게 display:flex 속성을 준다.
+    </p>
+    <div class="right-flex box">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
