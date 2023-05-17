@@ -12,10 +12,10 @@
    border: 2px solid violet;
   
 }
-.clear{
+.clear {
   clear: both;
 }
-.Inline{
+.Inline {
   display: inline-block;}
   /*block,inline-block,inline 세가지 차이점에 대해서 잘 정리해두기(수직정렬)
   1.block:가로 100%차지,width,height지정 가능
@@ -51,4 +51,40 @@
   float: left;
   display: flex;
   justify-content: flex-end;
+}
+.center_float div{
+  width: 300px;
+  margin: 0, auto;
+}
+.center_float div { float: left;
+  
+box-sizing: border-box;
+}
+.center-inline div{
+  display: inline-block;
+  text-align: left;
+}
+.center-inline{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: row;
+  align-items:center;
+  height: 700px;
+  border: 2px solid #000;
+}
+.flex div{
+  font-size: 24px;
+  font-weight: bold;
+}
+.first{
+  order: 1;
+}
+.second{
+order:1;
+}
+.third{
+order: -1;
 }
