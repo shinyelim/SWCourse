@@ -1,34 +1,58 @@
-.wrapper {
-  width: 200px;
+/*.wrapper{
+  width: 1200px;
   margin: 0 auto;
   font-size: 36px;
-  
+ 
 }
 .header{
+ 
   height: 100px;
-  width: 700px;
-  background-color: aquamarine;
+  background-color: aqua;
 }
 .left-box{
   width: 200px;
-  height: 1000px;
-  
+  height: 500px;
+  background-color: rgb(150, 24, 87);
   float: left;
-  background-color: cornflowerblue;
 }
-/* left-box 옆으로 붙으라는 의미에서 float:left를
-   사용해도 되고, 남은 공간 오른쪽으로 가라는 의미를
-   float:right를 사용해도 됨*/
-
 .right-box{
-  width: 700px;
-  height: 1000px;
-  background-color: coral;
-  float: top left ;
+  width: 1000px;
+  height: 500px;
+  float: left;
+  background-color: darkslateblue;
+  
 }
 .footer{
-  background-color: lightseagreen;
   clear: both;
   height: 200px;
-  width: 700px; }
+  background-color: brown;
+}*/
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  font-size:25px;
+  
+}
+.header{
+  width: 1000px;
+  background-color: darkgoldenrod;
+  
 
+}
+.left-box{
+  height: 500px;
+  width: 90px;
+  background-color: cadetblue;
+  float:left;
+}
+.right-box{
+  width: 1000px;
+  height: 500px;
+  background-color: crimson;
+}
+.footer{
+  width: 200px;
+  clear: both;
+  background-color: darkblue; 
+ 
+}
