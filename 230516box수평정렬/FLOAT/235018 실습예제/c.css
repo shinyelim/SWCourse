@@ -1,1 +1,16 @@
+.wrapper{
+  height: 95px;
+  margin:0 auto;
 
+  background-color: rgb(104, 74, 48);
+  text-align: center;
+  display: flex;
+
+}
+.logo{
+  margin-top: -3%;
+}
+.gnb-list{
+display: flex;
+justify-content: flex-end;
+}

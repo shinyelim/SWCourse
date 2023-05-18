@@ -1,0 +1,33 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.logo img{
+  width: 200px;
+} /*.logo*/
+.gno-item A{
+  color:aliceblue;
+  font-weight: bold;
+
+}
+nav{
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: rgb(114, 67, 33);
+  
+  align-items: center;
+}
+.gnb-list{
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  
+}
